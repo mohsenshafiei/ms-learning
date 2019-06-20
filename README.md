@@ -84,3 +84,13 @@
 - Solves the problem of how reliably move software between environments
 - Encapsulates the entire runtime environment
 - Includes the application and its dependencies, libraries and other binaries
+
+#### Three methods of scalability
+- Run multiple copies behind the load balancer
+- Split the application into multiple services
+- By partitioning the data using data shards
+
+#### Load Balancing Microservices
+- split traffic among multiple servers
+- most common scaling solution
+- can be deployed as single or multiple services per server

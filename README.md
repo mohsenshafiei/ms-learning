@@ -60,3 +60,27 @@
 - Interfaces with the model to work with data (CRUD, and so on)
 - Passes responses output to the view
 - This is accomplished with express routing
+
+#### Single service per host
+- isolates services from others
+- Service has exclusive resources
+- Easy to monitor and deploy
+- Less efficient in some cases than multiple services per host
+
+#### Service instance per container
+- Package the service in a docker container
+- Scaling is easy by changing the number of container instances
+- Encapsulates the tech stack
+- Isolate each service
+
+#### Serverless deployment
+- Eliminate the need to maintain servers
+- Scales according to usage
+- These need to be quick and lightweight
+- Latency risk
+- Pay per request
+
+#### Why Containerization?
+- Solves the problem of how reliably move software between environments
+- Encapsulates the entire runtime environment
+- Includes the application and its dependencies, libraries and other binaries
